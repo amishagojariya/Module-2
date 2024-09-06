@@ -34,3 +34,31 @@
     display: flex;
     justify-content: end;
   }
+  .span1{
+     background-color: white;
+     color: brown;
+     position: absolute;
+     left: 715px;
+     top: 148px;
+     padding:  4px 5px 2px 5px;
+     border-radius: 50%;
+
+  }
+  .span2{
+    background-color: white;
+    color: brown;
+    position: absolute;
+    left: 715px;
+    top: 228px;
+    padding:  3px 5px 2px 5px;
+    border-radius: 50%;
+  }
+  .span3{
+    background-color: white;
+    color: brown;
+    position: absolute;
+    left: 715px;
+    top: 316px;
+    padding: 3px 5px 2px 5px;
+    border-radius: 50%;
+  }
