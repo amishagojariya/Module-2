@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.box {
+    margin: 50px auto;
+  height: 300px;
+  width: 500px;
+  background-image: linear-gradient(#c0974b, #9a732a, #5a2121e0, #572727cb);
+  position: relative;
+}
+.boxa{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+
+}
+.boxb{
+    background-color: #ad5f32;
+    border-radius: 50%;
+    height: 95px;
+    width: 95px;
+    position: absolute;
+    top: 87px;
+    left: 185px;
+    /* opacity: 1px; */
+
+}
