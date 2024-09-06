@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wave{
+  margin: 50px auto;
+  background-image: url(https://images.pexels.com/photos/12198534/pexels-photo-12198534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 500px;
+  width: 1000px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  color: aliceblue;
+}
+.content1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 300px;
+  padding-top: 250px;
+  color: aliceblue;
+}
+svg{
+  margin-top: 278px;
+}
