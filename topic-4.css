@@ -3,27 +3,128 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.wave{
-  margin: 50px auto;
+
+.wave {
   background-image: url(https://images.pexels.com/photos/12198534/pexels-photo-12198534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 500px;
   width: 1000px;
+  position: relative;
 }
-.content{
+h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
   color: aliceblue;
 }
-.content1{
+p {
   display: flex;
+  padding-top: 20px;
   flex-direction: column;
-  align-items: start;
-  padding-left: 300px;
-  padding-top: 250px;
+  align-items: center;
   color: aliceblue;
 }
-svg{
-  margin-top: 278px;
+svg {
+  margin-top: 154px;
 }
+img {
+  border-radius: 50%;
+  height: 60px;
+  width: 70px;
+}
+
+.img1 {
+  position: absolute;
+  top: 380px;
+  left: 100px;
+}
+.img2 {
+  position: absolute;
+  top: 320px;
+  left: 270px;
+}
+.img3 {
+  position: absolute;
+  top: 320px;
+  left: 450px;
+}
+.img4 {
+  position: absolute;
+  top: 340px;
+  left: 640px;
+}
+.img5 {
+  position: absolute;
+  top: 310px;
+  left: 840px;
+}
+.img1 h5 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  opacity: 0;
+}
+.img1 h5:hover {
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  color: aliceblue;
+  transition: 2s;
+}
+.img2 .skill1 {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  opacity: 0;
+}
+.img2 .skill1:hover {
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  color: aliceblue;
+  transition: 2s;
+}
+.img3 .skill2 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  opacity: 0;
+}
+.img3 .skill2:hover {
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  color: aliceblue;
+  transition: 2s;
+}
+.img4 .skill3 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  opacity: 0;
+}
+.img4 .skill3:hover {
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  color: aliceblue;
+  transition: 2s;
+}
+.img5 .skill4 {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  opacity: 0;
+}
+.img5 .skill4:hover {
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  color: aliceblue;
+  transition: 2s;
+} 
