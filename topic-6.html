@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .main {
+        color: white;
+        text-align: center;
+        display: grid;
+        width: fit-content;
+        grid-template-rows: repeat(6, 100px);
+        grid-template-columns: repeat(4, 200px);
+    }
+
+    .box1 {
+        background-color: #282853;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .box2 {
+        background-color: #ac242a;
+        grid-column: 2/5;
+        grid-row: 1/2;
+    }
+
+    .box3 {
+        background-color: #235eac;
+        grid-column: 1/5;
+        grid-row: 2/4;
+    }
+
+    .box4 {
+
+        background-color: #282853;
+        grid-column: 1/3;
+        grid-row: 4/6;
+
+    }
+
+    .box5 {
+
+        background-color: #e0bc44;
+        grid-column: 1/5;
+        grid-row: 6/7;
+    }
+
+    .box6 {
+        background-color: #3ea180;
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+
+    .box7 {
+        background-color: #b0e2d1;
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+
+    .box8 {
+        background-color: #f5f5f5;
+        grid-column: 3/4;
+        grid-row: 4/6;
+    }
+
+    @media(max-width:300px) {
+        .main {
+            grid-template-rows: repeat(7, 100px);
+            grid-template-columns: repeat(4, 200px);
+        }
+
+        .box1 {
+            background-color: #282853;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .box2 {
+            background-color: #ac242a;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .box3 {
+            background-color: #235eac;
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+        .box4 {
+
+            background-color: #282853;
+            grid-column: 1/2;
+            grid-row: 4/5;
+
+        }
+
+        .box5 {
+
+            background-color: #e0bc44;
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+
+        .box6 {
+            background-color: #3ea180;
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+
+        .box7 {
+            background-color: #b0e2d1;
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+    }
+    @media(min-width:300px) {
+        .main {
+            grid-template-rows: repeat(7, 100px);
+            grid-template-columns: repeat(4, 200px);
+        }
+
+        .box1 {
+            background-color: #282853;
+            grid-column: 1/5;
+            grid-row: 1/2;
+        }
+
+        .box2 {
+            background-color: #ac242a;
+            grid-column: 1/2;
+            grid-row: 4/8;
+        }
+
+        .box3 {
+            background-color: #235eac;
+            grid-column: 1/5;
+            grid-row: 2/4;
+        }
+
+        .box4 {
+
+            background-color: #282853;
+            grid-column: 2/5;
+            grid-row: 4/6;
+
+        }
+
+        .box5 {
+
+            background-color: #e0bc44;
+            grid-column:2/5;
+            grid-row: 6/7;
+        }
+
+        .box6 {
+            background-color: #3ea180;
+            grid-column: 2/4;
+            grid-row: 7/8;
+        }
+
+        .box7 {
+            background-color: #b0e2d1;
+            grid-column: 4/5;
+            grid-row: 7/8;
+        }
+        .box8{
+            background-color: #282853;
+            grid-column: 2/5;
+            grid-row: 4/6;
+        }
+    }
+    @media(min-width:700px) {
+        .main {
+            grid-template-rows: repeat(6, 100px);
+            grid-template-columns: repeat(4, 200px);
+        }
+        .box1 {
+        background-color: #282853;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .box2 {
+        background-color: #ac242a;
+        grid-column: 2/5;
+        grid-row: 1/2;
+    }
+
+    .box3 {
+        background-color: #235eac;
+        grid-column: 1/5;
+        grid-row: 2/4;
+    }
+
+    .box4 {
+
+        background-color: #282853;
+        grid-column: 1/3;
+        grid-row: 4/6;
+
+    }
+
+    .box5 {
+
+        background-color: #e0bc44;
+        grid-column: 1/5;
+        grid-row: 6/7;
+    }
+
+    .box6 {
+        background-color: #3ea180;
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+
+    .box7 {
+        background-color: #b0e2d1;
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+
+    .box8 {
+        background-color: #f5f5f5;
+        grid-column: 3/4;
+        grid-row: 4/6;
+    }
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="box1">HEADER</div>
+        <div class="box2">MENU</div>
+        <div class="box3">HERO</div>
+        <div class="box4">MAIN</div>
+        <div class="box5">BANNER</div>
+        <div class="box6">EXTRA</div>
+        <div class="box7">IMAGE</div>
+        <div class="box8">NOTHIG</div>
+
+    </div>
+</body>
+
+</html>
