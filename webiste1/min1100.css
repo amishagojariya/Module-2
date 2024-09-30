@@ -1,0 +1,63 @@
+@media(min-width:1100px){
+   
+    header nav .heding{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+      }
+      header nav{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    main .outer .graph1 img {
+        height: 600px;
+        width: 850px;
+    }
+    main .outer .icon {
+        display: flex;
+        padding-left: 150px;
+        justify-content: space-between;
+    }
+    main .imges1 {
+        gap: 10px;
+        display: flex;
+       flex-direction: row;
+        padding-left: 50px;
+    }
+    main .works{
+      margin: 50px auto;
+
+    }
+    main .yourwork1 {
+        display: flex;
+        gap: 80px;
+    }
+    main .work .everyday {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 50px auto;
+        padding: 0px 50px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    main .work .graph2 img {
+        width: 550px;
+    }
+    main .last{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    main .lasticone{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .section1 .pera{
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
